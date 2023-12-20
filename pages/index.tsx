@@ -112,7 +112,7 @@ const Home: NextPage = () => {
   return (
     <div className="flex max-w-5xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Head>
-        <title>Twitter Bio Generator</title>
+        <title>Free Pet Product Name Generator by PetOS</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -122,7 +122,7 @@ const Home: NextPage = () => {
           <b>1,846</b> pet product names generated so far
         </p>
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Generate your next Twitter bio using AI
+          Brainstorm and generate your purrfect pet product name using AI
         </h1>
         <div className="mt-7">
           <Toggle isGPT={isGPT} setIsGPT={setIsGPT} />
@@ -138,8 +138,8 @@ const Home: NextPage = () => {
               className="mb-5 sm:mb-0"
             />
             <p className="text-left font-medium">
-              Drop in your job{' '}
-              <span className="text-slate-500">(or your favorite hobby)</span>.
+              Drop in your pet product intro{' '}
+              <span className="text-slate-500">(or any pet product idea in mind)</span>.
             </p>
           </div>
           <textarea
