@@ -25,7 +25,7 @@ const handler = async (req: Request): Promise<Response> => {
     'mistralai/Mixtral-8x7B-Instruct-v0.1',
     {
       prompt: prompt,
-      max_tokens: 300,
+      max_tokens: 3000,
       stream_tokens: true,
     }
   );
