@@ -20,9 +20,9 @@ export default function Header() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        /*
+        {/*
         <Github />
-        */
+        */}
         <p>Go to PetOS</p>
       </a>
     </header>
