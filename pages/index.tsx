@@ -31,7 +31,7 @@ const Home: NextPage = () => {
 
   const prompt = `Generate 3 ${
     vibe === 'Casual' ? 'relaxed' : vibe === 'Funny' ? 'silly' : 'Professional'
-  } pet product names "1.", "2.", and "3.". Only return these 3 pet product names, nothing else. ${
+  } pet product names. Only return these 3 pet product names, nothing else. ${
     vibe === 'Funny' ? 'Make the product names out-of-the-box and humerous' : ''
   }Make sure each generated pet product name is less than 20 characters, and feel free to use this context as well: ${bio}${
     bio.slice(-1) === '.' ? '' : '.'
