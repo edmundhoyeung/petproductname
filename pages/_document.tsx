@@ -10,7 +10,7 @@ class MyDocument extends Document {
             name="description"
             content="Generate your pet product name powered by AI in seconds."
           />
-          <meta property="og:site_name" content="twitterbio.io" />
+          <meta property="og:site_name" content="petproductname.petionship.com" />
           <meta
             property="og:description"
             content="Generate your pet product name powered by AI in seconds."
