@@ -25,7 +25,7 @@ export default function Footer() {
       </div>
       <div className="flex space-x-4 pb-4 sm:pb-0">
       <Link
-        href="https://www.linkdedin.com/company/petionship"
+        href="https://www.linkedin.com/company/petionship"
         target="_blank"
         rel="noreferrer"
         className="group"
