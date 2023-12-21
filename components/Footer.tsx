@@ -33,8 +33,8 @@ export default function Footer() {
       >
         <svg
           aria-hidden="true"
-          className="h-7 w-7 fill-slate-500 group-hover:fill-slate-700"
-          viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
+          viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"
         >
           <path d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z" />
         </svg>
@@ -49,7 +49,7 @@ export default function Footer() {
         >
           <svg
             aria-hidden="true"
-            className="h-7 w-7 fill-slate-500 group-hover:fill-slate-700"
+            className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
             viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/>
