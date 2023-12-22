@@ -122,7 +122,7 @@ const Home: NextPage = () => {
           <b>1,846</b> pawsome pet product names generated so far
         </p>
         <h1 className="sm:text-6xl text-4xl max-w-[708px] font-bold text-slate-900">
-          Generate your purrfect pet product names using AI
+          Generate purrfect pet product names using AI
         </h1>
         <div className="mt-7">
           <Toggle isGPT={isGPT} setIsGPT={setIsGPT} />
