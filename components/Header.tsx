@@ -15,7 +15,7 @@ export default function Header() {
         </h1>
       </Link>
       <a
-        className="flex flex-col max-w-fit items-center justify-center space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100"
+        className="flex flex-col max-w-fit items-center justify-center sm:items-start sm:justify-start space-x-2 rounded-full border border-gray-300 bg-white px-4 py-2 text-sm text-gray-600 shadow-md transition-colors hover:bg-gray-100"
         href="https://plus.petionship.com"
         target="_blank"
         rel="noopener noreferrer"
@@ -23,7 +23,7 @@ export default function Header() {
         {/*
         <Github />
         */}
-        <p>Go to PetOS</p>
+        <p className="sm:text-center">Go to PetOS</p>
       </a>
     </header>
   );
