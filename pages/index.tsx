@@ -31,9 +31,9 @@ const Home: NextPage = () => {
 
   const prompt = `Generate 3 ${
     vibe === 'Casual' ? 'relaxed' : vibe === 'Funny' ? 'silly' : 'Professional'
-  } pet product names with no hashtags and clearly labeled "1.", "2.", and "3.". Only return these 3 pet product names, nothing else. ${
+  } pet product names in Traditional Chinese with no hashtags and clearly labeled "1.", "2.", and "3.". Only return these 3 pet product names in Traditional Chinese, nothing else. ${
     vibe === 'Funny' ? 'Make the product names humerous' : ''
-  }Make sure each generated pet product name is less than 20 characters, and feel free to use this context as well: ${bio}${
+  }Make sure each generated pet product name is less than 20 characters and it must be in Traditional Chinese because users cannot read English, and feel free to use this context as well: ${bio}${
     bio.slice(-1) === '.' ? '' : '.'
   }`;
 
